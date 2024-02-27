@@ -40,6 +40,7 @@ namespace SientuoWeb.Controllers
         //[TypeFilter(typeof(CustomExceptionFilterAttribute))]
         public IActionResult XXX() 
         {
+            //这厮一个笑话
             int a = 0;
             int c = 5 / a;
             return View();
