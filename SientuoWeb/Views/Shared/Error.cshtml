@@ -1,0 +1,16 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+    Exception exception = ViewData["Exception"] as Exception;
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+<h3>人类的悲伤并不相同</h3>
+<p>
+   <strong>Development</strong> 请联系管理员
+</p>
+<p>
+    <strong>@exception.Message</strong>
+</p>

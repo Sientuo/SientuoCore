@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SientuoComm", "SientuoComm\SientuoComm.csproj", "{240DB7ED-BCA5-4936-A067-06854A1F75CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SientuoInterFace", "SientuoInterFace\SientuoInterFace.csproj", "{83732A31-D98A-4CC4-B489-FF22D2BF34E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SientuoService", "SientuoService\SientuoService.csproj", "{4FC17C2F-49C9-4ABE-902E-15B602DB10BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SientuoWeb", "SientuoWeb\SientuoWeb.csproj", "{9C2FC370-4912-4136-A8E5-010419F95F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SientuoDLL", "SientuoDLL\SientuoDLL.csproj", "{2841AB59-4A37-4632-AB4A-FE2AF5E22801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SientuoIDLL", "SientuoIDLL\SientuoIDLL.csproj", "{022F7902-7B9E-4D27-A771-12FE3C457363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SienuoModel", "SienuoModel\SienuoModel.csproj", "{6FF3CED3-A4FC-485B-87ED-5D41B71F1D0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{240DB7ED-BCA5-4936-A067-06854A1F75CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240DB7ED-BCA5-4936-A067-06854A1F75CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240DB7ED-BCA5-4936-A067-06854A1F75CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240DB7ED-BCA5-4936-A067-06854A1F75CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83732A31-D98A-4CC4-B489-FF22D2BF34E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83732A31-D98A-4CC4-B489-FF22D2BF34E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83732A31-D98A-4CC4-B489-FF22D2BF34E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83732A31-D98A-4CC4-B489-FF22D2BF34E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC17C2F-49C9-4ABE-902E-15B602DB10BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC17C2F-49C9-4ABE-902E-15B602DB10BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC17C2F-49C9-4ABE-902E-15B602DB10BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC17C2F-49C9-4ABE-902E-15B602DB10BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2FC370-4912-4136-A8E5-010419F95F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2FC370-4912-4136-A8E5-010419F95F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2FC370-4912-4136-A8E5-010419F95F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2FC370-4912-4136-A8E5-010419F95F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2841AB59-4A37-4632-AB4A-FE2AF5E22801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2841AB59-4A37-4632-AB4A-FE2AF5E22801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2841AB59-4A37-4632-AB4A-FE2AF5E22801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2841AB59-4A37-4632-AB4A-FE2AF5E22801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022F7902-7B9E-4D27-A771-12FE3C457363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022F7902-7B9E-4D27-A771-12FE3C457363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022F7902-7B9E-4D27-A771-12FE3C457363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022F7902-7B9E-4D27-A771-12FE3C457363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF3CED3-A4FC-485B-87ED-5D41B71F1D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF3CED3-A4FC-485B-87ED-5D41B71F1D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF3CED3-A4FC-485B-87ED-5D41B71F1D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF3CED3-A4FC-485B-87ED-5D41B71F1D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {171EDB60-ACF2-4761-BFD9-56387E4920E2}
+	EndGlobalSection
+EndGlobal
