@@ -26,7 +26,7 @@ namespace SientuoWeb.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            //实在是太简单了 net8注册
+            //实在是太简单了 net8注册88990156
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
