@@ -27,6 +27,8 @@ namespace SientuoWeb.Controllers
         public IActionResult Index()
         {
 
+            var ddd = Convert.ToDateTime("2024-03-08 16:18:00").ToString("yyyyMMddHHmmss");
+
             ViewData["Kiaser2"] = _person.IsDrink();
             TempData["Kiaser3"] = _student.GetStudent("1111").SName;
             object Kiaser4 = "我是哈哈哈";
@@ -40,7 +42,7 @@ namespace SientuoWeb.Controllers
         //[TypeFilter(typeof(CustomExceptionFilterAttribute))]
         public IActionResult XXX() 
         {
-            //这厮一个笑话8888
+            //这厮一个笑话
             //nishi555588465
             int a = 0;
             int c = 5 / a;

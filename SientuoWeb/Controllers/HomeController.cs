@@ -15,6 +15,7 @@ namespace SientuoWeb.Controllers
 
         public IActionResult Index()
         {
+            //д╛хоб╥╬╤
             return View();
         }
 
