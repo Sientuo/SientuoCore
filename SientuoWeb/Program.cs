@@ -12,15 +12,15 @@ namespace SientuoWeb
 
             // Add services to the container.
             builder.Services.AddControllersWithViews(option => {
+                //异常控制器过滤
                 option.Filters.Add<CustomExceptionFilterAttribute>();
             });
-
+            //日志注入
             builder.Logging.AddNLog("NLog/NLog.config");
-
+            //依赖注入
             builder.InitAntoFacDLL();
-
-            InitData.ConfigurationShow(builder);
-
+            //Db相关注入
+            builder.ConfigurationShow();
 
             var app = builder.Build();
 
